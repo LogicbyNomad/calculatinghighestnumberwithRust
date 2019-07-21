@@ -26,9 +26,12 @@ fn loop_to_10(){
     }
 
 fn array_loop(){
-    let v = vec![4,7,9,10];
+    let v = vec![4,7,8,9,11,10];
 
     for n in v {
+        if n ==11{
+            break;
+        }
         println!("{}", n);
     }
     
