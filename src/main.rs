@@ -3,10 +3,11 @@
 
 fn main() {
     let b = highest(4,2,8);
-    
+
     println!("{} is highest",b);
     loop_to_10();
     array_loop();
+
 }
 
 fn highest(a:i32,b : u32, c : i8)->i32{
